@@ -32,7 +32,7 @@ body{
     0%, 100%{
         color: #fff;
         font-weight: 600;
-        text-shadow: 0 0 12px #fbff00, 0 0 50px #fbff00, 0 0 100px #fbff00;
+        text-shadow: 0 0 12px #e0b0ff, 0 0 50px #e0b0ff, 0 0 100px #e0b0ff;
     }
     10%, 90%{
         color: #111;
@@ -115,13 +115,13 @@ body{
 }
 
 .description{
-    color: #fbff00;
+    color: #dda0dd;
     font-weight: 600;
 }
 
 /* Estilo para el botón */
 .button button {
-    background-color: yellow; /* Fondo amarillo */
+    background-color: #dda0dd; /* Fondo purpura */
     border: none; /* Sin bordes */
     padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
     font-size: 18px; /* Tamaño de fuente */
@@ -139,6 +139,6 @@ body{
 
   /* Efecto de resplandor al pasar el cursor sobre el botón */
 .button button:hover {
-    background-color: orange; /* Cambia el color de fondo al pasar el mouse a naranja */
-    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
+    background-color: #c8a2c8; /* Cambia el color de fondo al pasar el mouse a naranja */
+    box-shadow: 0 0 10px #e0b0ff, 0 0 20px #e0b0ff, 0 0 30px #e0b0ff; /* Efecto de resplandor amarillo */
 }
