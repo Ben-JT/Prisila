@@ -5,9 +5,11 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Toc, toc quien es....👻👻 ​​";
-  gif.src =
-    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmI1eW1yemkyYjRmczM3cXpqdjZ5bjN4MTg3NDgza281enMxZzBwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/odIt5RqXhRsDm/giphy.gif";
+  question.innerHTML = "Gracias por la ayudarme :3 ​​";
+  gif.src = "img/lea.png";
+  // Cambiar el tamaño con JavaScript
+  gif.style.width = "300px";
+  gif.style.height = "auto"; // Para mantener la proporción
 });
 
 noBtn.addEventListener("mouseover", () => {
