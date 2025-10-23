@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Gracias por la ayudarme :3 ​​";
+  question.innerHTML = "Gracias por hablarme y ser buena conmigo :3 ​​";
   gif.src = "img/lea.png";
   // Cambiar el tamaño con JavaScript
   gif.style.width = "300px";
